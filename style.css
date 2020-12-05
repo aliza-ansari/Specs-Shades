@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
  
  
 body {
@@ -213,6 +213,8 @@ img {vertical-align: middle;}
 
 .page-footer {
     /* background-color: rgb(64, 66, 71) !important; */
+	box-sizing: border-box;
+	
     color: white !important;
 }
 
@@ -252,7 +254,7 @@ img {vertical-align: middle;}
     font-size: 45px;
 }
 
-.m h2 {
+.m  {
     color: white;
     font-size: 30px;
 }
@@ -265,4 +267,14 @@ img {vertical-align: middle;}
 
 .m {
     margin: 15px;
+}
+
+
+@media screen and (max-width: 99px)
+{
+	
+	#slideshow-container
+	{
+		width: 100%;
+	}
 }
