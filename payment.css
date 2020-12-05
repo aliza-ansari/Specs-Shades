@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu');
+ @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu');
 
 *{
   margin: 0;
@@ -8,8 +8,16 @@
 }
 
 body{
-  background: #606869;
+  background: black;
   margin: 0 10px;
+}
+
+
+.relative-bottom{
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index:1030;
 }
 
 .payment{
@@ -84,6 +92,85 @@ body{
   border-radius: 5px;
   cursor: pointer;
 }
+
+footer{
+	
+	position: relative;
+ 	width: 105%;
+	background: #6c757d;
+	
+}
+.main-content{
+display: flex;	
+	
+}
+.fheading {
+    color: rgb(100, 206, 255) !important;
+    font-weight: bold;
+}
+
+.main-content  .box {
+	
+	flex-basis: 50%;
+	padding:16px 20px;
+		
+}
+
+
+.box h2{
+	
+	font-size:1.125rem;
+	font-weight: 600;
+}
+
+.box .content{
+	
+	margin: 0 0 0 0;
+	
+}
+.left .content .social{
+		margin: 20px 0 0 0;
+	
+}
+
+.left .content .social{
+		padding: 0 20px;
+	
+}
+
+
+.left .content .social a span{
+	
+height: 40px;
+width: 40px;
+background: #lalala;
+line-height: 40px;
+text-align: center;
+font-size: 18 px;
+border-radius: 5px;
+
+}
+
+
+.left .content .social a span:hover{
+	
+ background: #f12020;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .payment-logo{
